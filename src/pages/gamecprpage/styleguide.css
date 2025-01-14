@@ -1,0 +1,25 @@
+:root {
+    --game-cpr-bg-color: #fff6f6;
+    --game-cpr-header-color: #5b46b9;
+    --game-cpr-feedback-fast: #ce1212;
+    --game-cpr-heart-size: 50px;
+  }
+  
+  .game-cpr-page {
+    background-color: var(--game-cpr-bg-color);
+  }
+  
+  .game-cpr-header h1,
+  .game-cpr-header h2 {
+    color: var(--game-cpr-header-color);
+  }
+  
+  .feedback-text.too-fast {
+    color: var(--game-cpr-feedback-fast);
+  }
+  
+  .heart-icon {
+    width: var(--game-cpr-heart-size);
+    height: var(--game-cpr-heart-size);
+  }
+  

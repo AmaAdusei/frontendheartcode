@@ -1,0 +1,40 @@
+.schedule-page {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .schedule-header h1 {
+    font-size: 20px;
+    color: #5b46b9;
+    text-align: center;
+  }
+  
+  .schedule-header h2 {
+    font-size: 16px;
+    color: #5b46b9;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar {
+    border: 1px solid #5b46b9;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #5b46b9;
+  }
+  
+  th {
+    background-color: #f2f2f7;
+    color: #5b46b9;
+  }
+  

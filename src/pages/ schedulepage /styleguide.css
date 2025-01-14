@@ -1,0 +1,29 @@
+:root {
+    --schedule-bg-color: #ffffff;
+    --schedule-header-color: #5b46b9;
+    --schedule-calendar-border: #5b46b9;
+    --schedule-calendar-bg: #f2f2f7;
+  }
+  
+  .schedule-page {
+    background-color: var(--schedule-bg-color);
+  }
+  
+  .schedule-header h1,
+  .schedule-header h2 {
+    color: var(--schedule-header-color);
+  }
+  
+  .calendar {
+    border: 1px solid var(--schedule-calendar-border);
+  }
+  
+  th {
+    background-color: var(--schedule-calendar-bg);
+    color: var(--schedule-header-color);
+  }
+  
+  td {
+    border: 1px solid var(--schedule-calendar-border);
+  }
+  

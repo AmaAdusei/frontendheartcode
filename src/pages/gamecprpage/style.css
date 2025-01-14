@@ -1,0 +1,32 @@
+.game-cpr-page {
+    background-color: #fff6f6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .game-cpr-header h1 {
+    font-size: 20px;
+    color: #5b46b9;
+  }
+  
+  .game-cpr-header h2 {
+    font-size: 16px;
+    color: #5b46b9;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .feedback-text.too-fast {
+    color: red;
+  }
+  
+  .heart-icon {
+    width: 50px;
+    height: 50px;
+  }
+  

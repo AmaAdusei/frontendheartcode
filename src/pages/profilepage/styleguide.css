@@ -1,0 +1,38 @@
+:root {
+    --profile-bg-color: #ffffff;
+    --profile-header-color: #5b46b9;
+    --profile-button-bg: #ffffff;
+    --profile-button-border: #5b46b9;
+    --profile-button-text: #5b46b9;
+    --profile-logout-border: #ce1212;
+    --profile-logout-text: #ce1212;
+  }
+  
+  .profile-page {
+    background-color: var(--profile-bg-color);
+  }
+  
+  .profile-header h1 {
+    color: var(--profile-header-color);
+  }
+  
+  .profile-header h2 {
+    color: var(--profile-header-color);
+  }
+  
+  .profile-button {
+    background-color: var(--profile-button-bg);
+    border: 1px solid var(--profile-button-border);
+    color: var(--profile-button-text);
+  }
+  
+  .profile-button.logout {
+    border-color: var(--profile-logout-border);
+    color: var(--profile-logout-text);
+  }
+  
+  .profile-button:hover {
+    background-color: var(--profile-bg-color);
+    border-color: var(--profile-button-border);
+  }
+  
